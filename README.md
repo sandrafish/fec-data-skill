@@ -7,7 +7,7 @@ A Claude Code slash command skill that exports FEC filings for state House, Sena
 Given CSV files of FEC committee IDs for your state, exports:
 
 | CSV file | Form type | Output database |
-|----------|-----------|-----------------|
+|---------- | ----------- | ----------------- | 
 | `[state]_house_comm_id.csv` | F3 | `[state]_house.db` |
 | `[state]_sen_comm_id.csv` | F3 | `[state]_sen.db` |
 | `[state]_leadership_pac_id.csv` | F3X | `[state]_leadership_pac.db` |
