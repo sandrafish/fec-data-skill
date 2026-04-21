@@ -63,7 +63,17 @@ In Claude Code, run:
 
 Claude will ask for your state abbreviation and then run the exports.
 
+## Next...
+
+Run in command line:
+```
+libfec datasette [state]_house.db
+```
+Or one of the other databases. This will give you a datasette instance that you can explore.
+
 ## Tips
 
 - Set `LIBFEC_API_KEY` in your environment for higher FEC API rate limits
 - Re-run the skill any time to refresh data — existing databases will be overwritten
+- [Libfec](https://github.com/asg017/libfec/tree/main) is developed by software engineer [Alex Garcia](https://alexgarcia.xyz/) 
+- [Datasette](https://docs.datasette.io/en/stable/) is developed by [Simon Willison](https://simonwillison.net/)
